@@ -12,9 +12,6 @@ In this classification project, data we had to generate two classes of data with
 
 ## 3. Sentiment Classification
 In this project I implemented a sentiment classifier for Yelp 5 class rating reviews and IMDB binary classification problem. The data was vectorised by first creating a dictionary of words and assigning corresponding vector to each instance of the text corpus. Two vectorization methodologies were experimented including binary representation (existing or not-existing) and also frequency bag-of-words. Linear-SVM, Naive Bayes, and Decision Trees were used to classify these examples. 
-
-## 4. Finding the Largest Digit
-In this problem, dataset was randomly generated various grey-scale images containing two or three digits with different sizes, randomly scaled to 40/60/80/100/120 percent of the original digit size. As a data cleaning process, using OpenCV and finding the contours of the digits in the image, the dataset was cleaned from "noise". Different learners were tested, including Neural Networks, Linear SVM, K-Nearest Neighbor, Decision Tree, Random Forests, Bagging, Boosting, Kernelized SVM, and Convolutional Neural Networks (CNNs). For more discussions and information, please check-out our codes and the report. 
-
+	
 ## 5. Ablation study of TwinNets
 In this project we had to do an ablation study of TwinNet, a bi-directional RNN being tested on sequential MNIST dataset. We also tried all possible machine learning baseline methodoligies as well as hyper-parameter exploration to reproduce the results. For more information, please read the report. 
